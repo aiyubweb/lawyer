@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.header-section{
+    width: 100%;
+}
+.header-section .bg-light{
+    background: #fff !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+    color: #f1602b;
+}
+
+/* *******slider section css start************ */
+.slider-section{
+    width: 100%;
+    padding: 160px 0px 80px;
+    background: url("../images/slider.png") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.slider-section h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 60px;
+}
+.slider-section .arrow{
+    width: 100%;
+    padding: 30px 0px 10px;
+}
+/* *******slider section css end************ */
+/* *******who we section css start************ */
+.who-we-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.who-we-section .title{
+    margin: 40px 0px 0px;
+}
+.who-we-section p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #b0b0b1;
+}
+.who-we-section .who-img{
+    width: 100%;
+    text-align: center;
+}
+/* *******who we section css end************ */
+
+/* *******global css for title start************ */
+.title{
+    width: 100%;
+}
+.title img{
+    margin-bottom: 15px;
+}
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #1f4f87;
+}
+/* *******global css for title end************ */
+
+/* *******what-we-do section start************ */
+.what-we-do{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/whatwedo.png") center top no-repeat;
+    background-size: cover;
+}
+.what-we-do .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+.what-we-do .card{
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+}
+.what-we-do .card .card-body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+}
+.what-we-do .card .card-body .card-title{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.what-we-do .card .card-body .arrows{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+/* *******what-we-do section end************ */
+
+/* *******attorney section start************ */
+.attorney-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+}
+.attorney-section .title{
+    width: 100%;
+    margin: 80px 0px 0px;
+}
+.attorney-section .title h2{
+    color: #fff;
+}
+.attorney-section .title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #757cb1;
+}
+.attorney-section .title .btn{
+    background: transparent;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f1602b;
+    border: 0px;
+    text-transform: uppercase;
+}
+.inner-attorney .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+.inner-attorney .card{
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+.inner-attorney .card .card-body{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.inner-attorney .card .card-body .card-title{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* *******attorney section end************ */
+
+/* *******language section start************ */
+.language-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language-section .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.language-section  h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px 0px 20px;
+}
+.language-section p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #b0b0b2;
+}
+.language-section .btn{
+    background: transparent;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f1602b;
+    border: 0px;
+    text-transform: uppercase;
+}
+/* *******language section end************ */
+
+/* *******Contact section start************ */
+.contact-section{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    background: #28377e;
+}
+.contact-section .title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin: 0px 0px 40px;
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+textarea::placeholder{
+    color: #fff !important;
+}
+input:placeholder{
+    color: #fff !important;
+}
+.contact-section .form-control{
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #4759a7;
+    border-radius: 0px;
+    padding: 10px 0px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0px 0px 10px;
+}
+.contact-section .form-control:focus{
+    background: transparen;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+}
+.btn-custom{
+    background: #f1602b;
+    padding: 15px 60px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+/* *******Contact section end************ */
+
+/* *******footer section start************ */
+.footer-section{
+    width: 100%;
+    background: #0c1234;
+    padding: 40px 0px;
+}
+.footer-section a{
+    color: #b1b7dd;
+    padding: 0px 5px;
+}
+.footer-section p{
+    margin: 0px;
+    color: #b1b7dd;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* *******footer section end************ */
+
+
